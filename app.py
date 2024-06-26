@@ -39,7 +39,7 @@ def predict(scaled_img):
     batch_count = np.expand_dims(scaled_img,axis=0)
     preds_prob = cnn_model.predict(batch_count)
     category = np.argmax(preds_prob)
-    sl.write('The image is:',labels_classes[category])
+    sl.write('The image is of:',labels_classes[category])
 
 url = sl.text_input('Enter the url from browser to classify an image')
 
