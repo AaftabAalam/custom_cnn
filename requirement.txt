@@ -1,11 +1,5 @@
 streamlit
 tensorflow
-keras
 numpy
 requests
-PIL
-Image
-io
-Bytesio
 Pillow
-Requests
