@@ -1,5 +1,6 @@
 streamlit
-tensorflow
+import tensorflow
+from tensorflow import keras
 numpy
 requests
 Pillow
