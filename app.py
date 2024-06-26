@@ -1,10 +1,10 @@
+import tensorflow as tf
 import streamlit as sl
 from tensorflow import keras
 import numpy as np
 import requests
 from PIL import Image
 from io import BytesIO
-import matplotlib.pyplot as mplt
 
 #def disp_img(url):
     #response = requests.get(url)
