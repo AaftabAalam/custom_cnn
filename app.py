@@ -1,5 +1,4 @@
 import streamlit as sl
-#import tensorflow
 from tensorflow.keras.models import load_model
 import numpy as np
 import requests
