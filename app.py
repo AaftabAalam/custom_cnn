@@ -1,6 +1,6 @@
 import streamlit as sl
-import tensorflow
-from tensorflow import keras
+#import tensorflow
+from tensorflow.keras.models import load_model
 import numpy as np
 import requests
 from PIL import Image
@@ -16,7 +16,7 @@ from io import BytesIO
     #return scaled_img
 
 try:
-    cnn_model = keras.models.load_model('cnn_model.h5')
+    cnn_model = load_model('cnn_model.h5')
 except Exception as ex:
     sl.error('Cannot able to load this model because of:',ex)
     sl.stop()
